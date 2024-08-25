@@ -1,3 +1,4 @@
+import React from "react";
 import Tour from "./Tour";
 const Tours = ({ tours, removeTour }) => {
   return (
@@ -14,4 +15,5 @@ const Tours = ({ tours, removeTour }) => {
     </section>
   );
 };
+
 export default Tours;
